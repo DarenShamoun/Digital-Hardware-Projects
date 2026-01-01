@@ -1,0 +1,5 @@
+Overall Grade: 0.5 (FAIL: Minor modification(s) required.)
+
+Additional Notes:
+- FAIL: Multiple subtractors used in your design (on in SUB case, another in SLT case)
+- WARNING: Should not use "<" operator (that is a subtractor, meaning you have multiple subtractors in your design)

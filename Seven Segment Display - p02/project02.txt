@@ -1,0 +1,50 @@
+
+COMP 300 - Project 2 (7-Segment Display)
+
+1. Your FULL Name: Daren Shamoun
+   Your USD Email Address: darenshamoun@sandiego.edu
+
+2. A typed copy of USD's academic integrity pledge, followed by your typed
+   initials (as a way of "signing the pledge.").
+
+   The academic integrity pledge can be found on page 3 of
+   the document found here: https://www.sandiego.edu/conduct/documents/HonorCode.pdf
+   To be clear, it is the text that starts, "I pledge to demonstrate...".
+
+   I pledge to demonstrate personal and academic integrity in all matters with my fellow students, 
+   the faculty, and the administration here at USD. I promise to be honest and accountable for my actions; 
+   and to uphold the statutes of scholastic honesty to better myself and those around me.
+   
+   DS
+
+3. Briefly describe your design methodology, including how you determined the final
+   Boolean equations for your design and how you went about designing the circuit
+   to implement that equation.
+
+   I used K maps to determine the initial boolean equation and then I simplified the equations as much as possible, 
+   using distributive property on the highest D values together if possible, 
+   and then repeating the distributive again until it was as simple as possible, sometimes using DeMorgans to simplify this as well.
+   For designing the circut I was following the best practices you showed us in class and had the input and their corresponding not values
+   at the top going down vertically and then having each different output equation ordered from S[6] to S[0] and starting at the most
+   innermost parenthesis designing those circuts and then building up from there.
+
+4. Output Equations:
+
+	Sa = D3'(D2D0 + D1) + D2'(D1'(D3 + D0')) + D1(D2 + D0')
+   Sb = D3'(D1D0 + D1'D0' + D2') + D2'(D1D0' + D1') + D3D1'D0
+	Sc = D3'(D2 + D1' + D0) + D1'D0 + D3D2'
+	Sd = D2(D1'(D3 + D0) + D1D0') + D2'(D1(D3' + D0) + D1'D0')
+	Se = D0'(D2'D1'+D1) + D3(D2 + D1)
+	Sf = D3(D1 + D2') + D2(D1D0' + D3'D1') + D2'D1'D0'
+	Sg = D1(D2' + D0') + D2D1' + D3
+   
+5. The estimated number of hours spent working on the project: 12
+
+
+6. Did you submit on time? (If not, you will be charged one comp300 buck.)
+   yes
+
+
+7. (Optional) Any feedback you with to give me relating the project (e.g. Was it
+   interesting? How could it be improved?)
+

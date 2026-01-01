@@ -1,0 +1,5 @@
+Overall Grade: 0.5 (FAIL: Minor modification(s) required.)
+
+Additional Notes:
+- FAIL: Testbench 1 waveforms don't show full simulation
+- FAIL: Testbench 2 waveforms have signal names that are cut off and the end of the simulation doesn't show the values so you can't tell if things were correct.

@@ -1,0 +1,17 @@
+*.bak
+*.swp
+.nfs*
+.DS_Store
+.vscode
+
+transcript
+
+work
+atom_netlists
+db
+incremental_db
+output_files
+simulation
+*.qws
+*.vcd
+*.wlf

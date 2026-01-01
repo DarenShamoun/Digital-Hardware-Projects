@@ -1,0 +1,66 @@
+COMP 300 @ USD
+Project 3: Adventure Game
+
+1. Partner A's FULL Name: Daren Shamoun
+   Partner A's USD Email Address: darenshamoun@sandiego.edu
+
+   Partner B's FULL Name: Tony Abelson
+   Partner B's USD Email Address: tabelson@sandiego.edu
+
+2. A typed copy of USD's academic integrity pledge, followed by BOTH you and your
+   partner's typed initials (as a way of "signing the pledge.").
+
+   The academic integrity pledge can be found on page 3 of
+   the document found here: https://www.sandiego.edu/conduct/documents/HonorCode.pdf
+   To be clear, it is the text that starts, "I pledge to demonstrate...".
+
+   I pledge to demonstrate personal and academic integrity in all matters with my fellow students, 
+   the faculty, and the administration here at USD. I promise to be honest and accountable for my actions; 
+   and to uphold the statutes of scholastic honesty to better myself and those around me.
+
+   DS, TA
+
+3. Briefly describe your design methodology, including how you determined the final
+   Boolean equations for your design and how you went about designing the circuit
+   to implement that equation.
+
+   We dervied the boolean equations by creating the finite state machine diagram, 
+   then we filled out the input and output tables for our two FSMs. From those
+   tables we derived our boolean equations and simplified and tested the equations.
+   Then when we designed the circuts we followed the PLA guidelines and 
+   the circut fell together nicely after that. 
+
+4. Next State Equations: (From your final state transition table.)
+
+	S0_next = R + S1W
+   S1_next = R'(S0E + S2N)
+	S2_next = R'(S1S + S3E)
+	S3_next = R'S2W
+	S4_next = R'S2E
+	S5_next = R'V'S4
+	S6_next = R'VS4
+
+5. Output Equations: (From your output tables.)
+
+	sw = S3
+	d = S5
+	win = S6
+	v = S1
+   
+5. The estimated number of hours spent working on the project:
+
+	Partner A working alone: 1 hours
+	Partner B working alone: 1 hours
+	Working together: 6 hours
+
+
+6. Did you submit on time? (If not, you will be charged one comp300 buck.)
+
+yes
+
+
+7. (Optional) Any feedback you with to give me relating the project (e.g. Was it
+   interesting? How could it be improved?)
+
+   The testing p03_die_tb.sv file has the input named reset, but in the instructions 
+   you asked for it to be named r in the waveform diagram, for ours we kept it as reset.

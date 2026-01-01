@@ -1,0 +1,8 @@
+C:/Users/daren/comp300/projects/p01/full_adder.v {1 {vlog -work work -vopt -stats=none C:/Users/daren/comp300/projects/p01/full_adder.v
+Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+-- Compiling module full_adder
+
+Top level modules:
+	full_adder
+
+} {} {}}

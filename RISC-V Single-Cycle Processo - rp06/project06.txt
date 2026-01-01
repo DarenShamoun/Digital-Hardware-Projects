@@ -1,0 +1,70 @@
+COMP 300 @ USD
+Project 7: RISC-V Single-Cycle Processor
+
+1. Partner A's FULL Name: Daren Shamoun
+   Partner A's USD Email Address: darenshamoun@sandiego.edu
+
+   Partner B's FULL Name: Tony Abelson
+   Partner B's USD Email Address: tabelson@sandiego.edu
+
+2. Assembler Examples:
+
+    - Instruction: lui x1, 0xABCDE
+        - HEX representation: 0xABCDE0B7
+        - Binary representation: 10101011110011011110 00001 0110111
+        - Instruction format: U-Type
+            - imm[31:12] = 10101011110011011110
+            - rd = 00001
+            - opcode = 0110111
+
+    - Instruction: xori x4, x3, -1
+        - HEX representation: 0xFFF1C213
+        - Binary representation: 111111111111 00011 100 00100 0010011
+        - Instruction format: I-Type
+            - imm[11:0] = 111111111111
+            - rs1 = 00011
+            - funct3 = 100
+            - rd = 00100
+            - opcode = 0010011
+
+    - Instruction: bne x1, x6, done
+        - HEX representation: 0x00609E63
+        - Binary representation: 0000000 00110 00001 001 11100 1100011
+        - Instruction format: B-Type
+            - imm[12] = 0
+            - imm[10:5] = 000000
+            - rs2 = 00110
+            - rs1 = 00001
+            - funct3 = 001
+            - imm[4:1] = 1110
+            - imm[11] = 0
+            - opcode = 1100011
+
+3. A typed copy of USD's academic integrity pledge, followed by BOTH you and your
+   partner's typed initials (as a way of "signing the pledge.").
+
+   The academic integrity pledge can be found on page 3 of
+   the document found here: https://www.sandiego.edu/conduct/documents/HonorCode.pdf
+   To be clear, it is the text that starts, "I pledge to demonstrate...".
+
+“I pledge to demonstrate personal and academic integrity in all matters with my fellow
+students, the faculty, and the administration here at USD. I promise to be honest and
+accountable for my actions; and to uphold the statutes of scholastic honesty to better
+myself and those around me.”
+
+T.A & D.S
+
+4. The estimated number of hours spent working on the project:
+
+	Partner A working alone: 1 hours
+	Partner B working alone: 1 hours
+	Working together: 11 hours
+
+
+5. Did you submit on time? (If not, both partners will be charged one comp300 buck.)
+
+Submitted with comp300 buck
+
+6. (Optional) Any feedback you with to give me relating the project (e.g. Was it
+   interesting? How could it be improved?) none
+

@@ -1,0 +1,5 @@
+Overall Grade: 1.0 (PASS: Congratulations!)
+
+Additional Notes:
+- WARNING: Simulation waveform signal names are cut off. This will result in a fail in all future assignments.
+- Overall, great work!
